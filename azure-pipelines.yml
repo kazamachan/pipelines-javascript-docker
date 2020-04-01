@@ -14,7 +14,7 @@ variables:
   imageRepository: 'kazamachanpipelinesjavascriptdocker'
   containerRegistry: 'eduiotregistry.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
-  tag: '$(Build.BuildId)'
+  tag: '0.1.1'
   
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
